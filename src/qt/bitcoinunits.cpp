@@ -43,8 +43,8 @@ QString BitcoinUnits::longName(int unit)
     switch(unit)
     {
     case BTC: return QString("XCAM");
-    case mBTC: return QString("lites");
-    case uBTC: return QString("photons");
+    case mBTC: return QString("camtoshis");
+    case uBTC: return QString("cams");
     case SAT: return QString("litoshi");
     default: return QString("???");
     }
