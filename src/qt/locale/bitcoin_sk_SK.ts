@@ -406,8 +406,8 @@
         <translation>Panel nástrojov</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje sa QR kód a litecoin: URI)</translation>
+        <source>Request payments (generates QR codes and camcoin: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje sa QR kód a camcoin: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -418,7 +418,7 @@
         <translation>Ukázať zoznam použitých prijímacích adries a štítkov</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
+        <source>Open a camcoin: URI or payment request</source>
         <translation>Otvoriť Camcoin: URI alebo vyžiadanie platby</translation>
     </message>
     <message>
@@ -884,12 +884,12 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the camcoin network, as detailed below.</source>
         <translation>Nedávne transakcie ešte nemusia byť viditeľné takže zostatok vo vašej peňaženke môže byť nesprávny. Táto informácia sa opraví keď sa vaša peňaženka zosynchronizuje s Camcoin sieťou ako je popísané nižšie.</translation>
     </message>
     <message>
-        <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Pokusy o minutie litecoinov ktoré sú ovplyvnené ešte nezobrazenými transakciami nebudú prijaté sieťou.</translation>
+        <source>Attempting to spend camcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Pokusy o minutie camcoinov ktoré sú ovplyvnené ešte nezobrazenými transakciami nebudú prijaté sieťou.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1292,7 +1292,7 @@
         <translation>Chyba pri žiadosti o platbu</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
+        <source>Cannot start camcoin: click-to-pay handler</source>
         <translation>Nemôžem spustiť Camcoin: click-to-pay handler</translation>
     </message>
     <message>
@@ -1300,8 +1300,8 @@
         <translation>Narábanie s URI</translation>
     </message>
     <message>
-        <source>'litecoin://' is not a valid URI. Use 'litecoin:' instead.</source>
-        <translation>'litecoin://' je nesprávna URI. Namiesto toho použite 'litecoin'.</translation>
+        <source>'camcoin://' is not a valid URI. Use 'camcoin:' instead.</source>
+        <translation>'camcoin://' je nesprávna URI. Namiesto toho použite 'camcoin'.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1415,7 +1415,7 @@
     </message>
     <message>
         <source>Enter a Camcoin address (e.g. %1)</source>
-        <translation>Vložte litecoin adresu (napr. %1)</translation>
+        <translation>Vložte camcoin adresu (napr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2334,7 +2334,7 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Vymazať tento vstup</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less camcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Poplatok bude odčítaný z čiastky ktorá bola odoslaná. Prijímateľ obdrží menej Camcoinov ako vložíte do poľa s čiastkou. Ak ste si vybrali viacerích prijímateľov tak bude poplatok rozdelený rovnomerne.</translation>
     </message>
     <message>
@@ -2362,7 +2362,7 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>Zadajte štítok pre túto adresu aby ste ju pridali do zoznamu použitých adries.</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Camcoin network.</source>
+        <source>A message that was attached to the camcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Camcoin network.</source>
         <translation>Správa pripojená k Camcoin URI ktorá bude uložená spolu s transakciou pre vašu referenciu. Poznámka: Táto správa nebude odoslaná cez Camcoin sieť.</translation>
     </message>
     <message>
@@ -2407,7 +2407,7 @@ Zapamätajte si: Keďže cena poplatku je počítaná za bajt, tak poplatok o ho
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive camcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Môžete podpísať správy / dohody s vašimi adresami, aby ste dokázali, že môžete obdržať Camcoiny ktoré tam boli zaslané. Buďte opatrný a nikdy nepodpodpisujte nič náhodné alebo nejasné, kedže phishing útoky sa vás môžu pokúsiť naviesť na podpísanie vašej indentity. Podpisujte len podrobné vyhlásenia s ktorými súhlasíte.</translation>
     </message>
     <message>

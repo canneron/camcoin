@@ -5,7 +5,7 @@ Setup
 ---------------------
 Camcoin Core is the original Camcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Camcoin transactions, which requires approximately 22 gigabytes of disk space. Depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Camcoin Core, visit [litecoin.org](https://litecoin.org/).
+To download Camcoin Core, visit [camcoin.org](https://camcoin.org/).
 
 Running
 ---------------------
@@ -15,12 +15,12 @@ The following are some helpful notes on how to run Camcoin Core on your native p
 
 Unpack the files into a directory and run:
 
-- `bin/litecoin-qt` (GUI) or
-- `bin/litecoind` (headless)
+- `bin/camcoin-qt` (GUI) or
+- `bin/camcoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run litecoin-qt.exe.
+Unpack the files into a directory, and then run camcoin-qt.exe.
 
 ### macOS
 
@@ -28,10 +28,10 @@ Drag Camcoin Core to your applications folder, and then run Camcoin Core.
 
 ### Need Help?
 
-* See the documentation at the [Camcoin Wiki](https://litecoin.info/)
+* See the documentation at the [Camcoin Wiki](https://camcoin.info/)
 for help and more information.
-* Ask for help on [#litecoin](http://webchat.freenode.net?channels=litecoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=litecoin).
-* Ask for help on the [CamcoinTalk](https://litecointalk.io/) forums, in the [Technical Support section](https://litecointalk.io/c/technical-support).
+* Ask for help on [#camcoin](http://webchat.freenode.net?channels=camcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=camcoin).
+* Ask for help on the [CamcoinTalk](https://camcointalk.io/) forums, in the [Technical Support section](https://camcointalk.io/c/technical-support).
 
 Building
 ---------------------
@@ -64,8 +64,8 @@ The Camcoin repo's [root README](/README.md) contains relevant information on th
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [CamcoinTalk](https://litecointalk.io/) forums.
-* Discuss general Camcoin development on #litecoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=litecoin-dev.
+* Discuss on the [CamcoinTalk](https://camcointalk.io/) forums.
+* Discuss general Camcoin development on #camcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=camcoin-dev.
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

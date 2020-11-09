@@ -43,8 +43,8 @@ Build Camcoin Core
 
 1. Clone the Camcoin Core source code:
 
-        git clone https://github.com/litecoin-project/litecoin
-        cd litecoin
+        git clone https://github.com/camcoin-project/camcoin
+        cd camcoin
 
 2.  Build Camcoin Core:
 
@@ -70,9 +70,9 @@ Build Camcoin Core
 
     or
 
-        cd ~/litecoin/src
-        cp litecoind /usr/local/bin/
-        cp litecoin-cli /usr/local/bin/
+        cd ~/camcoin/src
+        cp camcoind /usr/local/bin/
+        cp camcoin-cli /usr/local/bin/
 
 Disable-wallet mode
 --------------------
@@ -88,17 +88,17 @@ Mining is also possible in disable-wallet mode using the `getblocktemplate` RPC 
 Running
 -------
 
-Camcoin Core is now available at `./src/litecoind`
+Camcoin Core is now available at `./src/camcoind`
 
 Before running, you may create an empty configuration file:
 
     mkdir -p "/Users/${USER}/Library/Application Support/Camcoin"
 
-    touch "/Users/${USER}/Library/Application Support/Camcoin/litecoin.conf"
+    touch "/Users/${USER}/Library/Application Support/Camcoin/camcoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Camcoin/litecoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Camcoin/camcoin.conf"
 
-The first time you run litecoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+The first time you run camcoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
@@ -107,9 +107,9 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/litecoind -daemon # Starts the litecoin daemon.
-    ./src/litecoin-cli --help # Outputs a list of command-line options.
-    ./src/litecoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/camcoind -daemon # Starts the camcoin daemon.
+    ./src/camcoin-cli --help # Outputs a list of command-line options.
+    ./src/camcoin-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

@@ -1,7 +1,7 @@
 # JSON-RPC Interface
 
-The headless daemon `litecoind` has the JSON-RPC API enabled by default, the GUI
-`litecoin-qt` has it disabled by default. This can be changed with the `-server`
+The headless daemon `camcoind` has the JSON-RPC API enabled by default, the GUI
+`camcoin-qt` has it disabled by default. This can be changed with the `-server`
 option. In the GUI it is possible to execute RPC methods in the Debug Console
 Dialog.
 
@@ -62,7 +62,7 @@ RPC interface will be abused.
   withstand arbitrary Internet traffic, so changing the above settings
   to expose it to the Internet (even using something like a Tor hidden
   service) could expose you to unconsidered vulnerabilities.  See
-  `litecoind -help` for more information about these settings and other
+  `camcoind -help` for more information about these settings and other
   settings described in this document.
 
     Related, if you use Camcoin Core inside a Docker container, you may

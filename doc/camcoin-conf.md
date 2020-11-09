@@ -1,6 +1,6 @@
-# `litecoin.conf` Configuration File
+# `camcoin.conf` Configuration File
 
-The configuration file is used by `litecoind`, `litecoin-qt` and `litecoin-cli`.
+The configuration file is used by `camcoind`, `camcoin-qt` and `camcoin-cli`.
 
 All command-line options (except for `-?`, `-help`, `-version` and `-conf`) may be specified in a configuration file, and all configuration file options (except for `includeconf`) may also be specified on the command line. Command-line options override values set in the configuration file and configuration file options override values set in the GUI.
 
@@ -32,6 +32,6 @@ Network specific options can be:
 
 ## Configuration File Path
 
-The configuration file is not automatically created; you can create it using your favorite text editor. By default, the configuration file name is `litecoin.conf` and it is located in the Camcoin data directory, but both the Camcoin data directory and the configuration file path may be changed using the `-datadir` and `-conf` command-line options.
+The configuration file is not automatically created; you can create it using your favorite text editor. By default, the configuration file name is `camcoin.conf` and it is located in the Camcoin data directory, but both the Camcoin data directory and the configuration file path may be changed using the `-datadir` and `-conf` command-line options.
 
-The `includeconf=<file>` option in the `litecoin.conf` file can be used to include additional configuration files.
+The `includeconf=<file>` option in the `camcoin.conf` file can be used to include additional configuration files.

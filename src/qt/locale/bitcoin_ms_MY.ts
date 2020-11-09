@@ -386,7 +386,7 @@ Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>Sign messages with your Camcoin addresses to prove you own them</source>
-        <translation>sahkan mesej bersama alamat litecoin anda untuk menunjukkan alamat ini anda punya</translation>
+        <translation>sahkan mesej bersama alamat camcoin anda untuk menunjukkan alamat ini anda punya</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Camcoin addresses</source>
@@ -410,8 +410,8 @@ Alihkan fail data ke dalam tab semasa</translation>
 </translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Request payments (generates QR codes and litecoin: URIs)
+        <source>Request payments (generates QR codes and camcoin: URIs)</source>
+        <translation>Request payments (generates QR codes and camcoin: URIs)
 </translation>
     </message>
     <message>
